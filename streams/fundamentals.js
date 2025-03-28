@@ -34,5 +34,5 @@ class TransformNumberStream extends Transform {
 }
 
 new OneToHundredStream()
-  .pipe(new TransformNumberStream())  
+  .pipe(new TransformNumberStream())
   .pipe(new MultiplyByTenStream())
